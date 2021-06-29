@@ -1,0 +1,111 @@
+html{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 90%;
+    margin:auto;
+    background: -webkit-linear-gradient(-46deg, rgb(198, 228, 255), rgb(204, 163, 250));
+    background: linear-gradient(-46deg, rgb(198, 228, 255), rgb(204, 163, 250));
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    color:darkslategray;
+}
+p:first-child{
+    font-weight: 800;
+}
+a, a:link, a:visited, a:focus{
+    text-decoration: none;
+    color: slategray;
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+blockquote q {
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-size: 1.6rem;
+    background-color: lightgray;
+    border-left: 3px solid red;
+    padding: 0.5rem  2rem;
+    margin: 40px 0;
+    font-style: italic;
+}
+
+.villager{
+    border-left: 3px solid red;
+}
+
+.farmer{
+    border-left: 3px solid blue;
+}
+
+.c-main-story-content-author::before{
+    content: "— ";
+}
+
+header figure {
+    background-color: yellow;
+    position: relative;
+}
+
+header figure img{
+    width: 90%;
+    padding: 5% 5% 0 5%;
+}
+
+header figure figcaption{
+    position: absolute;
+    width: 50%;
+    color: azure;
+    font-weight: 800;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+}
+
+.good, .bad{
+    text-transform: uppercase;
+}
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+table tr:nth-child(even){
+    background-color:honeydew;
+}
+
+table tr:nth-child(odd){
+    background-color:khaki;
+}
+
+table caption{
+    caption-side: bottom;
+}
+
+table tr th{
+    background-color:black;
+    color:white;
+}
+
+table tr td{
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
